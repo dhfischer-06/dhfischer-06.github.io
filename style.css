@@ -19,6 +19,6 @@ button {
     color: #102029;
 }
 
-img {
-    margin-bottom: 10px;
+#pdf {
+    box-shadow: 5px 5px;
 }
