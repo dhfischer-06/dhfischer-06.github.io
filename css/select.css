@@ -1,0 +1,11 @@
+#hSelect {
+    color: #102029;
+    background-color: #f0f0f5;
+    border-radius: 3px;
+}
+
+#hSelect:hover {
+    transition: 100ms;
+    border: solid #f0f0f5 1px;
+    box-shadow: inset 1px 1px 5px grey;
+}
