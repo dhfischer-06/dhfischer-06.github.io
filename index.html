@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="button.js"></script>
 </head>
 <body>
+    
     <section id="title">
     <h1>Personal Page</h1>
     
     <p>Welcome! This is somewhere between playground and a portfolio for me, so take a look around.</p>
 
-    <button>Say hi!</button>
+    <p><button id="hello" onclick="greeting()">Say hi!</button> <i id="invisible">Hello friend...</i></p>
     </section>
 
     <h4>Linkies:</h4>
@@ -20,5 +22,10 @@
     <br>
     <i><a href=".\resume.html">Resume</a></i>
 
+    <script>
+        function greeting() {
+            document.getElementById('invisible').id = 'appears';
+        }
+    </script>
 </body>
 </html>
