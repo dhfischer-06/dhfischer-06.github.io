@@ -1,0 +1,20 @@
+body {
+    background-color: #102029;
+    color: #e5eaf5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#title {
+    background-color: #153040;
+}
+
+a {
+    color: #a5d8f5;
+}
+
+button {
+    font-family: inherit;
+    font-weight: 600;
+    background-color: #a5d8f5;
+    color: #102029;
+}
